@@ -1,0 +1,17 @@
+#Site settings
+title: Talleres web
+description: "Comisión de Talleres // cet // UTN-FRRe"
+email: talleres.cet.frre@gmail.com
+
+blurb1: <p>La <strong>comisión de talleres</strong> es un equipo de trabajo vinculado al <a href='https://www.facebook.com/CET.FRRe/?fref=ts' target='_blank'>centro de estudiantes</a>, formado con el objetivo de promover actividades educativas dirigidas a los alumnos de la <a href='http://www.frre.utn.edu.ar/' target='_blank'>UTN - Facultad Regional Resistencia</a>.</p>
+blurb2: <p><strong>Talleres Web</strong> es la plataforma que hemos armado para informar al respecto de todo lo que hagamos. Desde aquí podrás ver nuestras ofertas, inscribirte a nuestros cursos y talleres, acceder a los archivos, material complementario y enlaces de interés.</p> 
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested

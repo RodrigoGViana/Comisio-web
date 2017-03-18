@@ -1,0 +1,11 @@
+menu:
+- {name: nosotros, url: '#nosotros'}
+- {name: talleres, url: '#talleres'}
+
+#------------------------------------
+# Talleres
+
+talleres:
+- {name: Introducción a Python, folder: 'taller1'}
+- {name: tecnología de los taninos, folder: 'taller2'}
+- {name: autocad, folder: 'taller3'}
