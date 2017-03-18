@@ -4,24 +4,21 @@
 	<div class="taller-belt">
 		<div class="thumb-wrap">
 			<div class='thumb-container'>
-
-			{% for taller in site.data.settings.talleres%}
-			<a href='' class='thumb-unit' style='background-image: url(/assets/talleres/{{taller.folder}}/taller.png)'>
-				<div class='thumb-overlay'>
-					<strong>{{ taller.name }}</strong>
-					<div class='zoom-icon'></div>
-				</div>
-			</a>
-			{% endfor %}
-		</div>
+				{% for taller in site.data.settings.talleres%}
+				<a href='' class='thumb-unit' style='background-image: url(/assets/talleres/{{taller.folder}}/taller.png)'>
+					<div class='thumb-overlay'>
+						<strong>{{ taller.name }}</strong>
+						<div class='zoom-icon'></div>
+					</div>
+				</a>
+				{% endfor %}
+			</div>
 		</div>
 
 		<div class="taller-wrap">
 			<div class="info-taller">
+				<div class="taller-return">{% include /icons/icon-back.html %}</div>
 				<h4>Introducción a Python</h4>
-				<div style="width: 500px; height: 500px; background: #ccc"></div>
-				<p>muchas veces bla</p>
-
 				<div style="width: 500px; height: 500px; background: #ccc"></div>
 				<p>muchas veces bla</p>
 			</div>
