@@ -1,6 +1,7 @@
 $(function() {
   smoothScroll(300);
   tallerBelt();
+  tallerLoad();
   //
 });
 
@@ -28,5 +29,20 @@ function tallerBelt() {
   $(".taller-return").click(function() {
     $(".taller-belt").css('left', '0%');
     $(".info-taller").hide(800);
+  });
+}
+
+function tallerLoad() {
+
+  $.ajaxSetup({cache: false});
+
+  $('.thumb-unit').click(function() {
+      var $this=$(this),
+          newTitle=$this.find('strong').text(),
+          newFolder=$this.data('folder'),
+          spinner='<div class="loader">Loading...</div>',
+          newHTML='/Talleres/'+ newFolder +'.html';
+      $('.taller-load').html(spinner).load(newHTML);
+      $('.titulo-taller').text(newTitle)
   });
 }
