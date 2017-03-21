@@ -1,6 +1,28 @@
+#-------------------------------------
+# General settings
+
+title: Talleres web
+
+#-------------------------------------
+# Menu
+
 menu:
 - {name: nosotros, url: '#nosotros'}
 - {name: talleres, url: '#talleres'}
+
+#------------------------------------
+# Nosotros
+
+blurb: >
+
+  La **comisión de talleres** es un equipo de trabajo vinculado al [centro de estudiantes](https://www.facebook.com/CET.FRRe/?fref=ts){:target='_blank'},
+  formado con el objetivo de promover actividades educativas dirigidas a los alumnos de la [UTN - FRRe](http://www.frre.utn.edu.ar/){:target='_blank'}.
+
+
+  **Talleres Web** es la plataforma que hemos armado para informar al respecto de todo lo que hagamos.
+  Desde aquí podrás ver nuestras ofertas, inscribirte a nuestros cursos y talleres, acceder a los archivos,
+  material complementario y enlaces de interés.
+
 
 #------------------------------------
 # Talleres
