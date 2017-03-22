@@ -6,22 +6,14 @@ title: Talleres web
 #-------------------------------------
 # Menu
 
-<<<<<<< HEAD
-#menu:
-#- {name: nosotros, url: '#nosotros'}
-#- {name: talleres, url: '#talleres'}
-=======
 menu:
 - {name: nosotros, url: '#nosotros'}
 - {name: talleres, url: '#talleres'}
->>>>>>> 1cd9c0c393558678b79141391c07f7d9700aef8f
 
 #------------------------------------
 # Nosotros
 
 blurb: >
-
-<<<<<<< HEAD
   A finales de 2016, la comisión directiva del [centro de estudiantes tecnológicos](https://www.facebook.com/CET.FRRe/?fref=ts){:target='_blank'}
   avaló la formación de comisiones de trabajo para llevar adelante diferentes proyectos.
 
@@ -40,24 +32,6 @@ blurb: >
 
 
   Los actuales miembros de la comisión son:
-    - Rodrigo Gómez Viana
-    - Diana R Sansberro
-    - Héctor Sarquis Boutros
-    - Leonardo Barabas
-    - Carla Alvarenga
-    - Nicolás Delssin
-    - Nicolás Lopez
-    - Agustín Ferrario
-=======
-  La **comisión de talleres** es un equipo de trabajo vinculado al [centro de estudiantes](https://www.facebook.com/CET.FRRe/?fref=ts){:target='_blank'},
-  formado con el objetivo de promover actividades educativas dirigidas a los alumnos de la [UTN - FRRe](http://www.frre.utn.edu.ar/){:target='_blank'}.
-
-
-  **Talleres Web** es la plataforma que hemos armado para informar al respecto de todo lo que hagamos.
-  Desde aquí podrás ver nuestras ofertas, inscribirte a nuestros cursos y talleres, acceder a los archivos,
-  material complementario y enlaces de interés.
->>>>>>> 1cd9c0c393558678b79141391c07f7d9700aef8f
-
 
 #------------------------------------
 # Talleres
