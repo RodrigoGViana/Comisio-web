@@ -1,0 +1,15 @@
+#Site settings
+title: Talleres web
+description: "Comisión de Talleres // cet // UTN-FRRe"
+email: talleres.cet.frre@gmail.com
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested

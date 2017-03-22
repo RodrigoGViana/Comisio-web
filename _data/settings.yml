@@ -1,0 +1,52 @@
+#-------------------------------------
+# General settings
+
+title: Talleres web
+
+#-------------------------------------
+# Menu
+
+#menu:
+#- {name: nosotros, url: '#nosotros'}
+#- {name: talleres, url: '#talleres'}
+
+#------------------------------------
+# Nosotros
+
+blurb: >
+
+  A finales de 2016, la comisión directiva del [centro de estudiantes tecnológicos](https://www.facebook.com/CET.FRRe/?fref=ts){:target='_blank'}
+  avaló la formación de comisiones de trabajo para llevar adelante diferentes proyectos.
+
+
+  La **comisión de talleres**, originada de esta manera y conformada originalmente por los alumnos mencionados más adelante,
+  se propuso los siguientes objetivos:
+
+    - Promover actividades educativas dirigidas a los alumnos de la [UTN - FRRe](http://www.frre.utn.edu.ar/){:target='_blank'}
+  que aborden temas de interés y sirvan como introducción y perfeccionamiento a diferentes herramientas.
+    - Organizar estas actividades en conjunto con docentes y profesionales del área, priorizando siempre un enfoque práctico.
+    - Generar material que esté al alcance de toda la comunidad, por medio de una plataforma adecuada.
+
+  **Talleres Web** es la plataforma creada para generar un vínculo con los alumnos de la facultad y la
+  comunidad en general. Desde aquí se podrá ver las ofertas, inscribirse a los cursos y talleres, acceder a los archivos,
+  material complementario, enlaces de interés y más.
+
+
+  Los actuales miembros de la comisión son:
+    - Rodrigo Gómez Viana
+    - Diana R Sansberro
+    - Héctor Sarquis Boutros
+    - Leonardo Barabas
+    - Carla Alvarenga
+    - Nicolás Delssin
+    - Nicolás Lopez
+    - Agustín Ferrario
+
+
+#------------------------------------
+# Talleres
+
+talleres:
+- {name: Introducción a Python, folder: 'taller1'}
+- {name: tecnología de los taninos, folder: 'taller2'}
+- {name: 'autocad: desde la primera línea hasta representaciones en 3D', folder: 'taller3'}
