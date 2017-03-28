@@ -4,42 +4,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>{{ site.data.settings.title }}</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  <link rel="stylesheet" type="text/css"
-           href="https://fonts.googleapis.com/css?family=Cabin">
+  <head>
+    <title>{{ site.data.settings.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css"
+             href="https://fonts.googleapis.com/css?family=Cabin">
 
-     <style>
-       body {
-         font-family: 'Cabin', sans-serif;
-       }
-     </style>
+       <style>
+         body {
+           font-family: 'Cabin', sans-serif;
+         }
+       </style>
+  </head>
 
+  <body>
+    <div>
+    {% include header.html %}
+    </div>
+    <div id="nos">
+    {% include nosotros.html %}
+    </div>
+    <div id="talleres">
+    {% include talleres.html %}
+    </div>
+    <div>
+    {% include footer.html %}
+    </div>
 
-
-</head>
-<body>
-
-<div>
-{% include header.html %}
-</div>
-<div id="nos">
-{% include nosotros.html %}
-</div>
-<div id="talleres">
-{% include talleres.html %}
-</div>
-
-
-<div>
-{% include footer.html %}
-</div>
-<script src="/assets/js/jquery-2.1.1.min.js"></script>
-<script src="/assets/js/functions.js" type="text/javascript"></script>
-
-</body>
+    <script src="/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="/assets/js/functions.js" type="text/javascript"></script>
+  </body>
 </html>
